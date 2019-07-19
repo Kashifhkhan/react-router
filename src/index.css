@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+h1 {
+  margin: 0;
+  line-height: 1
+}
+.app-header {
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+}
+.app-header a {
+    color: #fff;
+    display: inline-block;
+    padding: 8px 20px;
+    text-decoration: none;
+    border-radius: 15px;
+    background: #0032a2;
+    margin-left: 30px;
+}
+
+.app-header a.active {
+  background: #b30404
+}
+
+.App .container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
